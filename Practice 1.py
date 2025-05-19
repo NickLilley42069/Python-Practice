@@ -51,12 +51,18 @@ age = float(age)
 print(age)"""
 
 #input
-kg = input("How much do you weigh? ")
+"""kg = input("How much do you weigh? ")
 kg = int(kg)
 
 goal_kg = kg - 8
 
 print(f"You also weigh: {kg}kg")
-print(f"you need to get down to: {goal_kg}")
+print(f"you need to get down to: {goal_kg}")"""
 
-#rectangle area calculation
+#rectangle area calculation - EXERCISE 1
+length = float(input("What is the length of your rectangle; "))
+width = float(input("What is the Width of your rectangle; "))
+
+area_of_rectangle = length * width
+
+print(area_of_rectangle)
