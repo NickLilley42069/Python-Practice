@@ -8,7 +8,7 @@ float = numbers - decimal numbers
 boolean = 
 """
 
-#strings
+"""#strings
 first_name = "Nicholas Lilley" 
 food = "Spaghetti Bolognese"
 
@@ -33,9 +33,9 @@ lying = True
 print(f"Hello, my name is {first_name}" + f", my favourite food is {food}, " +
       f"I am {age}" + f", my compound pr's are: Bench; {bench_pr}" + 
       f"Deadlift; {deadlift_pr}, Squats; {squat_pr}. " + f"Did I lie? {lying}")
-
+"""
 #type casting
-print(type(first_name))
+"""print(type(first_name))
 print(type(age))
 print(type(pr))
 print(type(bench_pr))
@@ -48,4 +48,15 @@ print(bench_pr)
 age += 0.11
 age = float(age)
 
-print(age)
+print(age)"""
+
+#input
+kg = input("How much do you weigh? ")
+kg = int(kg)
+
+goal_kg = kg - 8
+
+print(f"You also weigh: {kg}kg")
+print(f"you need to get down to: {goal_kg}")
+
+#rectangle area calculation
