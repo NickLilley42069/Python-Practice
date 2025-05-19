@@ -76,6 +76,7 @@ total = price * quantity
 print(f"your total price for; {item} is {total}, this because you want; {quantity} and they cost {price}")
 """
 #Madlibs??
+"""
 adjective1 = input("Enter an Adjective: (description of something)")
 adjective2 = input("Enter an Adjective: (description of something)")
 adjective3 = input("Enter an Adjective: (description of something)")
@@ -85,6 +86,8 @@ noun1 = input("Enter a Noun: (identify something or someone)")
 print(f"Today, I went to a {adjective1} zoo.")
 print(f"In an Exhibit, I saw a {noun1}")
 print(f"{noun1} was {adjective2} and {verb1}")
-print(f"I was {adjective3}!")
+print(f"I was {adjective3}!")"""
+
+#arithmetic
 
 
