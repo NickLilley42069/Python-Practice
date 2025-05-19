@@ -60,7 +60,7 @@ print(f"You also weigh: {kg}kg")
 print(f"you need to get down to: {goal_kg}")"""
 
 #rectangle area calculation - EXERCISE 1
-length = float(input("What is the length of your rectangle; "))
+"""length = float(input("What is the length of your rectangle; "))
 width = float(input("What is the Width of your rectangle; "))
 
 area_of_rectangle = length * width
@@ -74,3 +74,17 @@ quantity = int(input("How many of that Item do you want? "))
 total = price * quantity
 
 print(f"your total price for; {item} is {total}, this because you want; {quantity} and they cost {price}")
+"""
+#Madlibs??
+adjective1 = input("Enter an Adjective: (description of something)")
+adjective2 = input("Enter an Adjective: (description of something)")
+adjective3 = input("Enter an Adjective: (description of something)")
+verb1 = input("Enter a Verb; (a doing word)")
+noun1 = input("Enter a Noun: (identify something or someone)")
+
+print(f"Today, I went to a {adjective1} zoo.")
+print(f"In an Exhibit, I saw a {noun1}")
+print(f"{noun1} was {adjective2} and {verb1}")
+print(f"I was {adjective3}!")
+
+
