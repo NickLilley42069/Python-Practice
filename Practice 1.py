@@ -66,3 +66,11 @@ width = float(input("What is the Width of your rectangle; "))
 area_of_rectangle = length * width
 
 print(area_of_rectangle)
+#Shopping cart program - EXERCISE 2.
+item = input("What Item do you want to buy? ")
+price = float(input("What is the price? "))
+quantity = int(input("How many of that Item do you want? "))
+
+total = price * quantity
+
+print(f"your total price for; {item} is {total}, this because you want; {quantity} and they cost {price}")
