@@ -83,3 +83,4 @@ elif Plan == 'BULK':
     print(f"So with this in mind, your BULK calories is; {int(calorie_goal)}")
 
 #outcome
+2
